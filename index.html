@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рецепти</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+
+
+<div id="header">
+    <div class="header">
+
+        <div class="nav-bar">
+            <a href="index.html" class="logo" id="homeText">ГОЛОВНА</a>
+
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Пошук...">
+                <select id="filter">
+                    <option value="all" id="optAll">Всі</option>
+                    <option value="breakfast" id="optBreakfast">Сніданок</option>
+                    <option value="lunch" id="optLunch">Обід</option>
+                    <option value="dinner" id="optDinner">Вечеря</option>
+                </select>
+            </div>
+
+            <div class="controls">
+                <button id="themeToggle">🌙</button>
+                <button id="langToggle">EN</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<section class="hero">
+    <h2 id="heroText">Смачні рецепти щодня</h2>
+</section>
+
+<main class="container">
+
+
+    <div class="search-bar">
+        <input type="text" id="search" placeholder="Пошук...">
+        <select id="filter">
+            <option value="all">Всі</option>
+            <option value="breakfast">Сніданок</option>
+            <option value="lunch">Обід</option>
+            <option value="dinner">Вечеря</option>
+        </select>
+    </div>
+
+    <div id="recipes" class="grid"></div>
+
+</main>
+
+</body>
+</html>
