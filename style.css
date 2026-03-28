@@ -5,7 +5,7 @@
 }
 
 #header {
-    position: fixed;   /* фіксує */
+    position: fixed; 
     top: 0;
     left: 0;
     width: 100%;
@@ -32,7 +32,6 @@
     text-decoration: none;
 }
 
-/* ФІКСОВАНА ПАНЕЛЬ */
 #header {
     position: fixed;
     top: 0;
@@ -70,7 +69,6 @@
     margin-left: 5px;
 }
 
-/* HERO */
 .hero {
     margin-top: 80px;
     height: 200px;
@@ -93,7 +91,6 @@
 }
 
 
-/* КОНТЕНТ */
 main {
     margin-top: 20px;
 }
