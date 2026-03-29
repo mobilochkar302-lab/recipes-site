@@ -5,7 +5,7 @@
 }
 
 #header {
-    position: fixed; 
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -50,7 +50,6 @@
     padding: 10px;
 }
 
-/* ЛОГО */
 .logo {
     color: white;
     font-weight: bold;
@@ -58,13 +57,11 @@
     font-size: 20px;
 }
 
-/* ПОШУК */
 .search-bar {
     display: flex;
     gap: 10px;
 }
 
-/* КНОПКИ */
 .controls button {
     margin-left: 5px;
 }
@@ -81,15 +78,11 @@
     font-weight: bold;
 }
 
-
-
 .hero h2 {
-    
-    background: rgba(0, 0, 0, 0.5); 
+    background: rgba(0, 0, 0, 0.5);
     padding: 15px 20px;
     border-radius: 10px;
 }
-
 
 main {
     margin-top: 20px;
@@ -99,7 +92,7 @@ main {
     margin-top: 80px;
 }
 
-#header .nav-bar{
+#header .nav-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -108,7 +101,6 @@ main {
     max-width: 1300px;
     padding: 0 10px;
 }
-
 
 body.dark {
     --bg-color: #1e1e1e;
@@ -130,8 +122,6 @@ body {
     margin: 0 auto;
     padding: 20px;
 }
-
- 
 
 .search-bar {
     display: flex;
@@ -190,4 +180,216 @@ button {
 
 button:hover {
     background: #ccc;
+}
+
+.api-recipes {
+    background: linear-gradient(135deg, #f6f9fc, #e9f5ee);
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+.api-recipes h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.api-recipes .search-box {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.api-recipes input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.api-recipes input:focus {
+    border-color: #27ae60;
+    outline: none;
+}
+
+.api-recipes button {
+    padding: 10px 20px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.api-recipes button:hover {
+    background: #219150;
+}
+
+.api-recipes .meal-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.api-recipes .meal-card h2 {
+    margin-bottom: 10px;
+    color: #27ae60;
+}
+
+.api-recipes .meal-card h3 {
+    margin-top: 15px;
+}
+
+.api-recipes .meal-card a {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.api-recipes .meal-card a:hover {
+    text-decoration: underline;
+}
+
+.api-recipes .error {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.api-recipes .meal-card {
+    text-align: center;
+    color: #222;
+}
+
+.api-recipes .meal-card img {
+    width: 500px;
+    max-width: 100%;
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+.api-recipes .meal-card h2,
+.api-recipes .meal-card p {
+    color: #222;
+}
+
+.cocktails-section {
+    background: linear-gradient(135deg, #f0f4ff, #e8eef9);
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+body.dark .cocktails-section {
+    background: linear-gradient(135deg, #2a2a3a, #222232);
+}
+
+.cocktails-section h2 {
+    text-align: center;
+    color: #6a1b9a;
+}
+
+body.dark .cocktails-section h2 {
+    color: #ce93d8;
+}
+
+.cocktails-section .controls {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cocktails-section input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    min-width: 200px;
+}
+
+.cocktails-section button {
+    padding: 10px 20px;
+    background: #8e24aa;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cocktails-section button.secondary {
+    background: #ff8f00;
+}
+
+.cocktails-section button:hover {
+    filter: brightness(0.9);
+}
+
+.cocktails-section .cocktail-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    animation: fadeIn 0.5s ease-in-out;
+    text-align: center;
+    color: #222;
+}
+
+body.dark .cocktails-section .cocktail-card {
+    background: #2d2d2d;
+    color: #f5f5f5;
+}
+
+.cocktails-section .cocktail-card img {
+    width: 500px;
+    max-width: 100%;
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+.cocktails-section .cocktail-card ul {
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.cocktails-section .placeholder {
+    text-align: center;
+    padding: 40px;
+    color: #888;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 700px) {
+    .nav-bar {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .search-bar {
+        width: 100%;
+        justify-content: center;
+    }
+    .controls {
+        margin-top: 5px;
+    }
 }
